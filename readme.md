@@ -2,7 +2,7 @@
 
 Because paying \$10/month for something to ping your personal projects feels like theft.
 
-This is a bash script that does a simple GET request to the URLs that you specify in environment variables. If it fails, it will send a sms message to the
+This is a bash script that does a simple GET request to the URLs that you specify in environment variables. If it fails, it will send a sms message to the number set in `ALERT_NUMBER`. Idea is to run this on some cron every few minutes.
 
 Will want to set the following environment variables:
 
